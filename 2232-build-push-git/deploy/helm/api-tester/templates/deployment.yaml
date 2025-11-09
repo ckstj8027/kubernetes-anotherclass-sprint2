@@ -47,7 +47,7 @@ spec:
             httpGet:
               path: "/startup"
               port: 8080
-            periodSeconds: 5
+            periodSeconds: 20
             failureThreshold: 24
           livenessProbe:
             httpGet:
